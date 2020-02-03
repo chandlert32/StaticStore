@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Martel Sans', sans-serif;
+}
+header{
+    padding: 15px;
+    padding-top: 20px;
+}
+.navBar{
+    color: white;
+    position: relative;
+    margin: 25px 100px;
+    margin-bottom: 0px;
+}
+.navBar h1{
+    color:white;
+    font-family: 'Martel Sans', sans-serif;
+    font-size: 48px;
+    font-weight: bolder;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 0;
+    font-size: large;
+}
+
+ul li{
+    display: inline-block;
+    font-family: 'Martel Sans', sans-serif;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 2px solid white transparent;
+    transition: 0.5s ease;
+    font-size: 24px;
+}
+
+ul li a:hover{
+    background-color: white;
+    color: black;
+}
+
+body{
+    background-image: url(https://images.unsplash.com/photo-1542834369-f10ebf06d3e0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80);
+    height: 10%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.about{
+
+    width: 40%;
+    height: 500px;
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.8);
+    position: relative;
+    border-radius: 60px;
+    margin: 50px 150px 50px 150px; 
+    
+}
+
+/*shop*/
+.shop {
+    margin-left: 100px;
+    width: 100%;
+    background: none;
+
+}
+
+p {
+    text-decoration: none;
+}
+
+
+.pizza {
+    background-image: url(https://images.squarespace-cdn.com/content/v1/5d5bc4546f9f8c00014fc2ed/1570665069209-WQFUP4NP9JIDCHETW5SW/ke17ZwdGBToddI8pDm48kKtijf5x5S0rIV7X_qDH3dB7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UaZbTVdO5VSPAOxIcVIbmIFLIFeVDbQiz7iBIgNCzklBDD2o6CESiqIlH5ssNFrtmA/Hexx+Veg+Pizza.jpg);
+    background-size: cover;
+	width: 315px;
+	height: 400px;
+	float: left;
+	text-align: center;
+	font-family: 'Martel Sans', sans-serif;
+	font-size: 40px;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 40px;
+}
+
+
+.wings {
+	background-image: url(https://www.todayifoundout.com/wp-content/uploads/2013/02/buffalo-wings.jpg);
+    background-size: cover;
+	width: 315px;
+	height: 400px;
+	float: left;
+	text-align: center;
+	font-family: 'Martel Sans', sans-serif;
+	font-size: 40px;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 40px;
+}
+
+.sides {
+	background-image: url(https://www.alexiafoods.com/sites/g/files/qyyrlu521/files/images/callouts/%20Alexia_0.0-HMP_C_Callout-WTB.jpg);
+    background-size: cover;
+	width: 315px;
+	height: 400px;
+	float: left;
+	text-align: center;
+	font-family: 'Martel Sans', sans-serif;
+	font-size: 40px;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 40px;
+}
+
+.apparel {
+	background: url(https://cdn-ssl.s7.disneystore.com/is/image/DisneyShopping/6720057110126);
+    background-size: cover;
+	width: 315px;
+	height: 400px;
+	float: left;
+	text-align: center;
+	font-family: 'Martel Sans', sans-serif;
+	font-size: 40px;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 40px;
+}
+
+.button {
+	border-radius: 3px;
+	width: 100px;
+	border: 3px solid black;
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 5px 15px 5px 15px;
+	background-color: rgba(255, 255, 255, 0.4);
+	transition: all 0.3s ease;
+	position: relative;
+	top: 20%
+}
+
+.button:hover {
+	background-color: white;
+    border: 3px solid black;
+    color: black;
+}
+
+
+section {
+  width: 100%;
+  display: inline-block;
+  background: #ccc;
+  height: 50vh;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+}
+section p{
+    font-size: 12pt;
+}
+.footer-distributed {
+  background-color: #292c2f;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: normal 16px sans-serif;
+  padding: 45px 50px;
+  text-decoration: none;
+}
+
+.footer-distributed .footer-left p {
+  color: #8f9296;
+  font-size: 14px;
+  margin: 0;
+}
+
+.footer-distributed p.footer-links {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 0 0 10px;
+  padding: 0;
+  transition: ease .25s;
+}
+
+.footer-distributed p.footer-links a {
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+  transition: ease .25s;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "·";
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+
